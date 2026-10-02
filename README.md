@@ -1,8 +1,8 @@
 <div align="center">
 
-# Hi, I'm Nihar Ranjan Mishra 👋
+# Hi, I'm Nihar Ranjan Mishra 
 
-**Full-stack + AI agents — TypeScript · Python · React**
+**Full-stack + AI agents TypeScript · Python · React**
 
 *I build agents that do things in the real world, not just chat about them.*
 
