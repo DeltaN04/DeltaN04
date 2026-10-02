@@ -10,17 +10,17 @@
 
 </div>
 
-## 🚀 Featured project
+## Featured project
 
-### [🍛 food-ordering-agent](https://github.com/DeltaN04/food-ordering-agent)
+### [food-ordering-agent](https://github.com/DeltaN04/food-ordering-agent)
 Chat-first food ordering across real platforms from prompt to payment page, autonomously.
 
-- 💬 **Conversational ordering** intent parsing, explainable recommendations (veg / budget / cuisine), cart, checkout, live order tracking, admin dashboard
-- 🤖 **Real-world browser agent** drives Swiggy end-to-end (find dish → size-match → cart → saved address → payments), defeating bot-blocked UI by dispatching the app's own Redux handlers; **never charges**, stops for manual pay
-- 🧩 **Platform-agnostic by design** `PlatformAdapter` interface (Swiggy live, Zomato stubbed); mock↔real provider swap with zero UI changes
-- 🐍 **Polyglot**  Express + React + Playwright (TS) and a zero-dependency Python client
+-  **Conversational ordering** intent parsing, explainable recommendations (veg / budget / cuisine), cart, checkout, live order tracking, admin dashboard
+- **Real-world browser agent** drives Swiggy end-to-end (find dish → size-match → cart → saved address → payments), defeating bot-blocked UI by dispatching the app's own Redux handlers; **never charges**, stops for manual pay
+- **Platform-agnostic by design** `PlatformAdapter` interface (Swiggy live, Zomato stubbed); mock↔real provider swap with zero UI changes
+-  **Polyglot**  Express + React + Playwright (TS) and a zero-dependency Python client
 
-## 🛠️ Stack
+##  Stack
 
 | Area | Tools |
 |---|---|
@@ -29,12 +29,12 @@ Chat-first food ordering across real platforms from prompt to payment page, auto
 | Backend | Node.js, Express |
 | AI / Automation | Playwright, browser-agent patterns, intent parsing + recommendation engines |
 
-## 📌 Also on my profile
+## Also on my profile
 
 - **DSA_Problems** (Java) Hacktoberfest DSA practice
 - Forks I learn from: Composio, CopilotKit, Taipy, Postiz, freeCodeCamp
 
-## 📫 Reach me
+## Reach me
 
 - GitHub: [@DeltaN04](https://github.com/DeltaN04)
 - Open to SDE / AI-engineer roles and interesting collaborations let's build something together.
