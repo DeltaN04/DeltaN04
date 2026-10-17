@@ -2,7 +2,7 @@
 
 # Nihar Ranjan Mishra
 
-**AI agents + applied ML engineer** — I build agents that do real work in the real world, and ML systems with honest, reproducible numbers.
+**AI agents + applied ML engineer** I build agents that do real work in the real world, and ML systems with honest, reproducible numbers.
 
 Research Intern @ **IIT Jodhpur** (School of AI & Data Science) · Co-Lead, **Cloud** @ SIT ACM Student Chapter · B.Tech AI/ML, Symbiosis Institute of Technology, Pune ('28)
 
@@ -14,7 +14,7 @@ Research Intern @ **IIT Jodhpur** (School of AI & Data Science) · Co-Lead, **Cl
 
 ### 🛰️ [Turbofan RUL & Maintenance Alerting](https://github.com/DeltaN04/rul-turbofan-Jet-Engine)
 **Problem:** fixed-interval engine maintenance wastes healthy life and still misses early failures.
-**Built:** end-to-end pipeline on NASA C-MAPSS (FD001–FD004) — condition-aware normalisation, causal rolling features, six model families under grouped 5-fold CV; alert thresholds tuned on out-of-fold predictions and frozen before test; Mondrian conformal intervals; Streamlit demo.
+**Built:** end-to-end pipeline on NASA C-MAPSS (FD001–FD004) condition-aware normalisation, causal rolling features, six model families under grouped 5-fold CV; alert thresholds tuned on out-of-fold predictions and frozen before test; Mondrian conformal intervals; Streamlit demo.
 **Result:** capped test RMSE **12.3–13.2 cycles on all four subsets**; **100% of fails-within-30 engines detected** with **≈50 cycles median warning lead** (cost-aware policy). The project caught and quantified its own preprocessing bug — the fix moved FD004 from 23.9 → 13.2 RMSE.
 **Stack:** Python · scikit-learn · PyTorch · Streamlit
 
@@ -42,7 +42,7 @@ Research Intern @ **IIT Jodhpur** (School of AI & Data Science) · Co-Lead, **Cl
 
 ## Research
 
-- **Undergraduate research intern** — School of AI & Data Science, IIT Jodhpur: agentic AI & multi-agent systems.
+- **Undergraduate research intern** School of AI & Data Science, IIT Jodhpur: agentic AI & multi-agent systems.
 <!-- TODO: add paper details here when public, e.g. "Paper: Title — under review at <venue>" -->
 
 ## Reach me
