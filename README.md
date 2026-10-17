@@ -1,40 +1,51 @@
 <div align="center">
 
-# Hi, I'm Nihar Ranjan Mishra 
+# Nihar Ranjan Mishra
 
-**Full-stack + AI agents TypeScript · Python · React**
+**AI agents + applied ML engineer** — I build agents that do real work in the real world, and ML systems with honest, reproducible numbers.
 
-*I build agents that do things in the real world, not just chat about them.*
+Research Intern @ **IIT Jodhpur** (School of AI & Data Science) · Co-Lead, **Cloud** @ SIT ACM Student Chapter · B.Tech AI/ML, Symbiosis Institute of Technology, Pune ('28)
 
-[![Hireable](https://img.shields.io/badge/Open_to_work-SDE_%2F_AI_roles-brightgreen)](https://github.com/DeltaN04)
+[![Open to work](https://img.shields.io/badge/Open_to_work-SDE_%2F_AI_internships-brightgreen)](https://github.com/DeltaN04)
 
 </div>
 
-## Featured project
+## Featured projects
 
-### [food-ordering-agent](https://github.com/DeltaN04/food-ordering-agent)
-Chat-first food ordering across real platforms from prompt to payment page, autonomously.
+### 🛰️ [Turbofan RUL & Maintenance Alerting](https://github.com/DeltaN04/rul-turbofan-Jet-Engine)
+**Problem:** fixed-interval engine maintenance wastes healthy life and still misses early failures.
+**Built:** end-to-end pipeline on NASA C-MAPSS (FD001–FD004) — condition-aware normalisation, causal rolling features, six model families under grouped 5-fold CV; alert thresholds tuned on out-of-fold predictions and frozen before test; Mondrian conformal intervals; Streamlit demo.
+**Result:** capped test RMSE **12.3–13.2 cycles on all four subsets**; **100% of fails-within-30 engines detected** with **≈50 cycles median warning lead** (cost-aware policy). The project caught and quantified its own preprocessing bug — the fix moved FD004 from 23.9 → 13.2 RMSE.
+**Stack:** Python · scikit-learn · PyTorch · Streamlit
 
--  **Conversational ordering** intent parsing, explainable recommendations (veg / budget / cuisine), cart, checkout, live order tracking, admin dashboard
-- **Real-world browser agent** drives Swiggy end-to-end (find dish → size-match → cart → saved address → payments), defeating bot-blocked UI by dispatching the app's own Redux handlers; **never charges**, stops for manual pay
-- **Platform-agnostic by design** `PlatformAdapter` interface (Swiggy live, Zomato stubbed); mock↔real provider swap with zero UI changes
--  **Polyglot**  Express + React + Playwright (TS) and a zero-dependency Python client
+### 🧠 [Pipeline-Corrosion-Guard](https://github.com/DeltaN04/Pipeline-Corrosion-Guard)
+**Problem:** manual review of pipeline corrosion inspections misses critical defects and burns engineer hours.
+**Built:** LangGraph multi-agent triage (planner → research → executor → critic with loop-back), human-approval gate, work-order generation — fully offline with a deterministic mock LLM; 23-test suite.
+**Result:** missed-critical recall **0.85 → 0.98** on the synthetic validation benchmark.
+**Stack:** Python · LangGraph · Streamlit · Plotly
 
-##  Stack
+### 🍛 [food-ordering-agent](https://github.com/DeltaN04/food-ordering-agent)
+**Problem:** ordering across delivery platforms is manual and UI-bound.
+**Built:** chat-first ordering API + React UI + Playwright agent that drives Swiggy end-to-end — dish matching, cart via the app's own Redux handlers, address → payments page; `PlatformAdapter` pattern; **never charges**, hands over for manual pay.
+**Result:** proven on a live order through to the payments page (₹264), with honest fallbacks when a variant or payment method doesn't exist.
+**Stack:** TypeScript · React · Express · Playwright · Python
+
+## Stack
 
 | Area | Tools |
 |---|---|
-| Languages | TypeScript, Python, JavaScript |
-| Frontend | React, Vite |
-| Backend | Node.js, Express |
-| AI / Automation | Playwright, browser-agent patterns, intent parsing + recommendation engines |
+| Languages | Python, TypeScript |
+| ML / DL | PyTorch, scikit-learn, pandas, NumPy |
+| Agents | LangGraph, multi-agent orchestration, Playwright browser automation, RAG patterns |
+| Backend / UI | Node.js, Express, React, Vite, Streamlit |
+| Tooling | pytest, Docker, Git |
 
-## Also on my profile
+## Research
 
-- **DSA_Problems** (Java) Hacktoberfest DSA practice
-- Forks I learn from: Composio, CopilotKit, Taipy, Postiz, freeCodeCamp
+- **Undergraduate research intern** — School of AI & Data Science, IIT Jodhpur: agentic AI & multi-agent systems.
+<!-- TODO: add paper details here when public, e.g. "Paper: Title — under review at <venue>" -->
 
 ## Reach me
 
-- GitHub: [@DeltaN04](https://github.com/DeltaN04)
-- Open to SDE / AI-engineer roles and interesting collaborations let's build something together.
+- GitHub — [@DeltaN04](https://github.com/DeltaN04)
+<!-- TODO: LinkedIn URL · public email (currently hidden on your profile) -->
